@@ -23,9 +23,9 @@ int main(int argc, const char *argv[]) {
         }
 
         char c;
-        while(c != EOF){
+        while(c != EOF) {
             c = getchar();
-            if(asciiArray[c] == 1){
+            if(asciiArray[c] == 1) {
                 size_t charIndex = -1;
                 for(size_t j = 0; j < fromLen; j++) {
                     if(from[j] ==  c) {
